@@ -50,12 +50,15 @@ export default function Home() {
     <div className='flex flex-col gap-6 bg-white text-black'>
       <Navbar />
       <div className='flex flex-col gap-6'>
-        <div className='flex flex-col gap-6 w-80 min-[640px]:w-[1500px] mx-auto mb-8 text-center h-[104px] min-[640px]:gap-0 min-[640px]:-mt-12'>
+        <div className='flex flex-col gap-6 w-80 min-[640px]:w-[1480px] mx-auto mb-8 text-center h-[104px] min-[640px]:gap-0 min-[640px]:-mt-12'>
           <h1 className='text-32 min-[640px]:text-48'>
             Wait ! Your Order In Progress.
           </h1>
-          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize'>
+          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize min-[640px]:hidden'>
             Lorem ipsum dolor sit amet, consectetur
+          </h2>
+          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize max-sm:hidden'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing
           </h2>
         </div>
 

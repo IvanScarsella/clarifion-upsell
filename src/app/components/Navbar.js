@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className=''>
       <div className='bg-[#252F3D]'>
-        <div className='min-sm:w-[348px] px-5 flex py-[10px] justify-between min-[640px]:justify-around mx-auto h-[42px] min-[640px]:h-[50px] items-center'>
+        <div className='min-sm:w-[348px] min-[640px]:px-[76px] min-[640px]:w-[1483px] px-5 flex py-[10px] justify-between min-[640px]:justify-around mx-auto h-[42px] min-[640px]:h-[50px] items-center'>
           <div className='min-[640px]:hidden'>
             <Image
               alt=''
@@ -84,8 +84,8 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className='flex justify-between max-sm:w-80 min-[640px]:w-[1500px] min-[640px]:px-28 h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
-        <div className='min-[640px]:scale-150'>
+      <div className='flex justify-between max-sm:w-80 min-[640px]:w-[1460px] min-[640px]:px-[116px] h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
+        <div className='min-[640px]:scale-150 max-w-[192px] ml-8'>
           <Image
             alt=''
             src={image4}
@@ -94,22 +94,22 @@ export default function Navbar() {
             className='container'
           />
         </div>
-        <div className='flex flex-row justify-between gap-4 min-[640px]:gap-12'>
-          <div className='min-[640px]:scale-150'>
+        <div className='flex flex-row justify-between gap-4 min-[640px]:gap-8 max-w-[202px]'>
+          <div className='min-[640px]:h-14 w-22 h-4'>
             <Image
               alt=''
               src={image5}
-              width={44}
-              height={16}
+              width={96}
+              height={40}
               className='container'
             />
           </div>
-          <div className='min-[640px]:scale-150'>
+          <div className='min-[640px]:h-14 w-22 h-4'>
             <Image
               alt=''
               src={image6}
-              width={41}
-              height={16}
+              width={82}
+              height={32}
               className='container'
             />
           </div>
