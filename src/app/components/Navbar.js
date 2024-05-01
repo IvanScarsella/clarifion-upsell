@@ -22,8 +22,8 @@ export default function Navbar() {
               className='container'
             />
           </div>
-          <div className='flex flex-row justify-around w-[227px] items-center gap-3'>
-            <div className=''>
+          <div className='flex flex-row justify-around w-[228px] items-center gap-3'>
+            <div className='h-[22px] w-[22px]'>
               <Image
                 src={image3}
                 width={18.2}
@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
             <p className='text-12 text-white'>30-DAY SATISFACTION GUARANTEE</p>
           </div>
-          <div className='flex flex-row justify-around w-[227px] items-center gap-3 max-sm:hidden'>
+          <div className='flex flex-row justify-around w-[257px] items-center gap-3 max-sm:hidden'>
             <div className=''>
               <Image
                 src={truck}
@@ -46,7 +46,7 @@ export default function Navbar() {
               FREE DELIVERY ON ORDERS OVER $40.00
             </p>
           </div>
-          <div className='flex flex-row justify-around w-[227px] items-center gap-3 max-sm:hidden'>
+          <div className='flex flex-row justify-around w-[194px] items-center gap-3 max-sm:hidden'>
             <div className=''>
               <Image
                 src={heart}
@@ -57,7 +57,7 @@ export default function Navbar() {
             </div>
             <p className='text-12 text-white'>50.000+ HAPPY CUSTOMERS</p>
           </div>
-          <div className='flex flex-row justify-around w-[227px] items-center gap-3 max-sm:hidden'>
+          <div className='flex flex-row justify-around w-[210px] items-center gap-3 max-sm:hidden'>
             <div className=''>
               <Image
                 src={guarantee}

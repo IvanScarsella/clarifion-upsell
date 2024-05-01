@@ -2,6 +2,7 @@ import Image from 'next/image';
 import promoImage from '../../../public/promo_image.png';
 import promoImage2 from '../../../public/promo_image2.png';
 import star from '../../../public/star.png';
+import star_2 from '../../../public/star_2.png';
 import tick from '../../../public/tick.png';
 import percent from '../../../public/percent.png';
 import arrow from '../../../public/arrow.png';
@@ -146,8 +147,8 @@ export default function Promo() {
           </div>
         </div>
 
-        <div className='flex flex-row gap-4 items-center bg-[#EDF3FD] rounded-xl justify-start p-4'>
-          <div className='h-10 w-10 mt-2'>
+        <div className='flex flex-row gap-4 items-center bg-[#EDF3FD] rounded-xl justify-start p-2 px-4'>
+          <div className='h-8 w-8 mt-2'>
             <Image
               src={percent}
               width={24}
@@ -164,10 +165,10 @@ export default function Promo() {
 
         <div className='flex flex-col gap-3'>
           <div className='flex flex-row w-80 bg-[#59AE43] rounded-full items-center justify-center mx-auto'>
-            <h2 className='h-[51px] w-[179px] py-4 font-bold text-14 text-white text-center'>
+            <h2 className='h-[51px] w-[209px] py-4 font-bold text-14 text-white text-center tracking-widest'>
               YES - CLAIM MY DISCOUNT
             </h2>
-            <div>
+            <div className='h-3 w-3'>
               <Image
                 src={arrow}
                 width={12}
@@ -192,7 +193,7 @@ export default function Promo() {
                   />
                 </div>
                 <p className='text-12 text-[#4D5254]'>
-                  Secure 256-bit SSL encryption
+                  Secure 256-Bit SSL Encryption
                 </p>
               </div>
             </div>
@@ -280,31 +281,31 @@ export default function Promo() {
                 <div className='flex flex-row gap-2'>
                   <div className='h-3 w-3'>
                     <Image
-                      src={star}
+                      src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
-                      src={star}
+                      src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
-                      src={star}
+                      src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
-                      src={star}
+                      src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
-                      src={star}
+                      src={star_2}
                       className='container'
                     />
                   </div>
@@ -342,10 +343,12 @@ export default function Promo() {
           <div className='flex flex-col gap-4'>
             <div className='flex flex-row gap-6'>
               <div className='w-[134px] h-[134px] bg-[#2C7EF8] rounded-xl'>
-                <Image
-                  src={promoImage2}
-                  className='container'
-                />
+                <div className='h-[134px] w-[134px]'>
+                  <Image
+                    src={promoImage2}
+                    className='container'
+                  />
+                </div>
               </div>
               <div className='flex flex-col gap-2.5'>
                 <div className='flex flex-row gap-40'>
@@ -440,7 +443,7 @@ export default function Promo() {
           </div>
 
           <div className='flex flex-row gap-4 h-14 w-[550px] -ml-2 mx-4 items-center bg-[#EDF3FD] rounded-xl justify-start p-4'>
-            <div className='h-8 w-8 mt-2'>
+            <div className='h-10 w-8 mt-2'>
               <Image
                 src={percent}
                 width={24}
@@ -448,7 +451,7 @@ export default function Promo() {
                 className='container'
               />
             </div>
-            <p className='text-16'>
+            <p className='text-16 h-6'>
               Save <span className='text-[#2C7EF8]'>53%</span> and get{' '}
               <span className='text-[#2C7EF8]'>6 extra Clarifision</span> for
               only <span className='text-[#2C7EF8]'>$14 Each.</span>
@@ -457,10 +460,10 @@ export default function Promo() {
 
           <div className='flex flex-col gap-3'>
             <div className='flex flex-row gap-4 w-[542px] h-[59px] -ml-2 bg-[#59AE43] rounded-full items-center justify-center mx-auto'>
-              <h2 className='py-4 font-bold text-20 text-white text-center'>
+              <h2 className='py-4 font-bold text-20 text-white text-center tracking-widest'>
                 YES - CLAIM MY DISCOUNT
               </h2>
-              <div>
+              <div className='h-4 w-4'>
                 <Image
                   src={arrow}
                   width={16}

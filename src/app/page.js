@@ -3,6 +3,9 @@ import Navbar from './components/Navbar';
 import check from '../../public/check.png';
 import three from '../../public/3.png';
 import four from '../../public/4.png';
+import check_2 from '../../public/check_2.png';
+import three_2 from '../../public/3_2.png';
+import four_2 from '../../public/4_2.png';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
 
@@ -25,6 +28,24 @@ export default function Home() {
       text: 'Confirmation',
     },
   ];
+  const steps2 = [
+    {
+      src: check_2,
+      text: 'Cart Review',
+    },
+    {
+      src: check_2,
+      text: 'Checkout',
+    },
+    {
+      src: three_2,
+      text: 'Special Offer',
+    },
+    {
+      src: four_2,
+      text: 'Confirmation',
+    },
+  ];
   return (
     <div className='flex flex-col gap-6 bg-white text-black'>
       <Navbar />
@@ -39,7 +60,7 @@ export default function Home() {
         </div>
 
         <div className='h-[37px] w-80 self-center flex flex-row justify-around min-[640px]:hidden'>
-          {steps.map((item) => (
+          {steps2.map((item) => (
             <div className='flex flex-col items-center gap-1 '>
               <div className='h-5 w-5'>
                 <Image
