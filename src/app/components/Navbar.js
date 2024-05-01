@@ -5,13 +5,16 @@ import image3 from '../../../public/Vector3.png';
 import image4 from '../../../public/clarifion_logo.png';
 import image5 from '../../../public/McAfee_logo.png';
 import image6 from '../../../public/Norton_logo.png';
+import truck from '../../../public/truck.png';
+import heart from '../../../public/heart.png';
+import guarantee from '../../../public/guarantee.png';
 
 export default function Navbar() {
   return (
     <div className=''>
       <div className='bg-[#252F3D]'>
-        <div className='w-[348px] px-5 flex py-[10px] justify-between mx-auto h-[42px] items-center'>
-          <div className=''>
+        <div className='min-sm:w-[348px] px-5 flex py-[10px] justify-between min-[640px]:justify-around mx-auto h-[42px] min-[640px]:h-[50px] items-center'>
+          <div className='min-[640px]:hidden'>
             <Image
               src={image1}
               width={7.5}
@@ -30,7 +33,42 @@ export default function Navbar() {
             </div>
             <p className='text-12 text-white'>30-DAY SATISFACTION GUARANTEE</p>
           </div>
-          <div className=''>
+          <div className='flex flex-row justify-around w-[227px] items-center gap-3 max-sm:hidden'>
+            <div className=''>
+              <Image
+                src={truck}
+                width={18.2}
+                height={18.2}
+                className='container'
+              />
+            </div>
+            <p className='text-12 text-white'>
+              FREE DELIVERY ON ORDERS OVER $40.00
+            </p>
+          </div>
+          <div className='flex flex-row justify-around w-[227px] items-center gap-3 max-sm:hidden'>
+            <div className=''>
+              <Image
+                src={heart}
+                width={18.2}
+                height={18.2}
+                className='container'
+              />
+            </div>
+            <p className='text-12 text-white'>50.000+ HAPPY CUSTOMERS</p>
+          </div>
+          <div className='flex flex-row justify-around w-[227px] items-center gap-3 max-sm:hidden'>
+            <div className=''>
+              <Image
+                src={guarantee}
+                width={18.2}
+                height={18.2}
+                className='container'
+              />
+            </div>
+            <p className='text-12 text-white'>100% MONEY BACK GUARANTEE</p>
+          </div>
+          <div className='min-[640px]:hidden'>
             <Image
               src={image2}
               width={7.5}
@@ -40,8 +78,8 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className='flex justify-between w-80 h-[60px] mx-auto items-center bg-white'>
-        <div>
+      <div className='flex justify-between max-sm:w-80 min-[640px]:w-[1500px] min-[640px]:px-28 h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
+        <div className='min-[640px]:scale-150'>
           <Image
             src={image4}
             width={106.67}
@@ -49,8 +87,8 @@ export default function Navbar() {
             className='container'
           />
         </div>
-        <div className='flex flex-row justify-between gap-4'>
-          <div>
+        <div className='flex flex-row justify-between gap-4 min-[640px]:gap-12'>
+          <div className='min-[640px]:scale-150'>
             <Image
               src={image5}
               width={44}
@@ -58,7 +96,7 @@ export default function Navbar() {
               className='container'
             />
           </div>
-          <div>
+          <div className='min-[640px]:scale-150'>
             <Image
               src={image6}
               width={41}
