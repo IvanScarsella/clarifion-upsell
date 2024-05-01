@@ -60,10 +60,13 @@ export default function Home() {
         </div>
 
         <div className='h-[37px] w-80 self-center flex flex-row justify-around min-[640px]:hidden'>
-          {steps2.map((item) => (
-            <div className='flex flex-col items-center gap-1 '>
+          {steps2.map((item, index) => (
+            <div
+              key={index}
+              className='flex flex-col items-center gap-1 '>
               <div className='h-5 w-5'>
                 <Image
+                  alt={index}
                   src={item.src}
                   width={20}
                   height={20}
@@ -81,9 +84,12 @@ export default function Home() {
         </div>
         <div className='h-[37px] w-[1215px] self-center flex flex-row justify-between max-sm:hidden'>
           {steps.map((item, index) => (
-            <div className='flex flex-row items-center gap-5 max-w-[261px]'>
+            <div
+              key={index}
+              className='flex flex-row items-center gap-5 max-w-[261px]'>
               <div className='h-10 w-10'>
                 <Image
+                  alt={index}
                   src={item.src}
                   width={40}
                   height={40}

@@ -40,6 +40,7 @@ export default function Promo() {
 
         <div>
           <Image
+            alt=''
             src={promoImage}
             //  height={328}
             //  width={320}
@@ -51,6 +52,7 @@ export default function Promo() {
           <div className='flex flex-row gap-4'>
             <div className='w-1/4 h-20 bg-[#2C7EF8] rounded-xl'>
               <Image
+                alt=''
                 src={promoImage2}
                 className='container'
               />
@@ -66,30 +68,35 @@ export default function Promo() {
               <div className='flex flex-row gap-1'>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={star}
                     className='container'
                   />
                 </div>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={star}
                     className='container'
                   />
                 </div>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={star}
                     className='container'
                   />
                 </div>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={star}
                     className='container'
                   />
                 </div>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={star}
                     className='container'
                   />
@@ -113,6 +120,7 @@ export default function Promo() {
           <div className='flex flex-row gap-3 text-[#4D5254]'>
             <div className='h-4 w-4'>
               <Image
+                alt=''
                 src={tick}
                 className='container'
               />
@@ -125,6 +133,7 @@ export default function Promo() {
           <div className='flex flex-row gap-3'>
             <div className='h-4 w-4'>
               <Image
+                alt=''
                 src={tick}
                 className='container'
               />
@@ -136,6 +145,7 @@ export default function Promo() {
           <div className='flex flex-row gap-3'>
             <div className='h-4 w-4'>
               <Image
+                alt=''
                 src={tick}
                 className='container'
               />
@@ -150,6 +160,7 @@ export default function Promo() {
         <div className='flex flex-row gap-4 items-center bg-[#EDF3FD] rounded-xl justify-start p-2 px-4'>
           <div className='h-8 w-8 mt-2'>
             <Image
+              alt=''
               src={percent}
               width={24}
               height={24}
@@ -170,6 +181,7 @@ export default function Promo() {
             </h2>
             <div className='h-3 w-3'>
               <Image
+                alt=''
                 src={arrow}
                 width={12}
                 height={12}
@@ -186,6 +198,7 @@ export default function Promo() {
               <div className='flex flex-row items-center h-8 gap-2'>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={lock}
                     className='container'
                     width={12}
@@ -199,9 +212,12 @@ export default function Promo() {
             </div>
             <div className='bg-[#CFCFCF] w-[289px] h-[1px]' />
             <div className='flex flex-row gap-2'>
-              {cards.map((card) => (
-                <div className='h-6 w-6'>
+              {cards.map((card, index) => (
+                <div
+                  key={index}
+                  className='h-6 w-6'>
                   <Image
+                    alt=''
                     src={card.src}
                     className='container'
                     width={24}
@@ -219,6 +235,7 @@ export default function Promo() {
         <div className=' flex flex-row gap-4 h-[77px] items-center'>
           <div className='min-h-12 min-w-12'>
             <Image
+              alt=''
               src={satisfaction}
               width={48}
               height={48}
@@ -263,6 +280,7 @@ export default function Promo() {
         <div className='w-1/2 h-[591px] flex flex-col gap-3'>
           <div>
             <Image
+              alt=''
               src={promoImage}
               //  height={328}
               //  width={320}
@@ -273,6 +291,7 @@ export default function Promo() {
             <div className='flex flex-row gap-3 items-center'>
               <div className='h-12 w-12'>
                 <Image
+                  alt=''
                   src={customer_photo}
                   className='container'
                 />
@@ -281,30 +300,35 @@ export default function Promo() {
                 <div className='flex flex-row gap-2'>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star_2}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star_2}
                       className='container'
                     />
@@ -314,6 +338,7 @@ export default function Promo() {
                   <p className='text-14 font-bold'>Ken T.</p>
                   <div>
                     <Image
+                      alt=''
                       src={green_tick}
                       className='container'
                     />
@@ -345,6 +370,7 @@ export default function Promo() {
               <div className='w-[134px] h-[134px] bg-[#2C7EF8] rounded-xl'>
                 <div className='h-[134px] w-[134px]'>
                   <Image
+                    alt=''
                     src={promoImage2}
                     className='container'
                   />
@@ -361,30 +387,35 @@ export default function Promo() {
                 <div className='flex flex-row gap-2 -mt-2'>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star}
                       className='container'
                     />
                   </div>
                   <div className='h-3 w-3'>
                     <Image
+                      alt=''
                       src={star}
                       className='container'
                     />
@@ -408,6 +439,7 @@ export default function Promo() {
             <div className='flex flex-row gap-3 text-[#4D5254]'>
               <div className='h-4 w-4'>
                 <Image
+                  alt=''
                   src={tick}
                   className='container'
                 />
@@ -420,6 +452,7 @@ export default function Promo() {
             <div className='flex flex-row gap-3'>
               <div className='h-4 w-4'>
                 <Image
+                  alt=''
                   src={tick}
                   className='container'
                 />
@@ -431,6 +464,7 @@ export default function Promo() {
             <div className='flex flex-row gap-3'>
               <div className='h-4 w-4'>
                 <Image
+                  alt=''
                   src={tick}
                   className='container'
                 />
@@ -445,6 +479,7 @@ export default function Promo() {
           <div className='flex flex-row gap-4 h-14 w-[550px] -ml-2 mx-4 items-center bg-[#EDF3FD] rounded-xl justify-start p-4'>
             <div className='h-10 w-8 mt-2'>
               <Image
+                alt=''
                 src={percent}
                 width={24}
                 height={24}
@@ -465,6 +500,7 @@ export default function Promo() {
               </h2>
               <div className='h-4 w-4'>
                 <Image
+                  alt=''
                   src={arrow}
                   width={16}
                   height={16}
@@ -480,6 +516,7 @@ export default function Promo() {
               <div className='flex flex-row items-center h-8 gap-2'>
                 <div className='h-3 w-3'>
                   <Image
+                    alt=''
                     src={lock}
                     className='container'
                     width={12}
@@ -492,9 +529,12 @@ export default function Promo() {
               </div>
               <div className='bg-[#CFCFCF] h-4 w-[1px]' />
               <div className='flex flex-row items-center gap-1'>
-                {cards.map((card) => (
-                  <div className='h-3.5 w-6'>
+                {cards.map((card, index) => (
+                  <div
+                    key={index}
+                    className='h-3.5 w-6'>
                     <Image
+                      alt=''
                       src={card.src}
                       className='container'
                       width={24}
@@ -512,6 +552,7 @@ export default function Promo() {
           <div className='mt-8 -ml-2 flex flex-row gap-4 h-[77px] items-center w-[550px]'>
             <div className='min-h-[88px] min-w-[88px]'>
               <Image
+                alt=''
                 src={satisfaction}
                 width={88}
                 height={88}

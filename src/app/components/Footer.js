@@ -12,6 +12,7 @@ export default function Footer() {
       <div className='flex flex-row items-center h-8 gap-2'>
         <div className='h-3 w-3 min-[640px]:h-4  min-[640px]:w-4 text-white'>
           <Image
+            alt='lock'
             src={lock}
             className='container'
             width={12}
