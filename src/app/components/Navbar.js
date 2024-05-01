@@ -85,7 +85,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className='flex justify-between max-sm:w-80 min-[640px]:w-[1460px] min-[640px]:px-[116px] h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
-        <div className='min-[640px]:scale-150 max-w-[192px] ml-8'>
+        <div className='min-[640px]:scale-150 max-w-[192px] h-5 w-[107px] min-[640px]:ml-8 max-sm:-ml-1'>
           <Image
             alt=''
             src={image4}
@@ -94,8 +94,8 @@ export default function Navbar() {
             className='container'
           />
         </div>
-        <div className='flex flex-row justify-between gap-4 min-[640px]:gap-8 max-w-[202px]'>
-          <div className='min-[640px]:h-14 w-22 h-4'>
+        <div className='flex flex-row justify-between max-sm:gap-0  min-[640px]:gap-8 max-w-[202px]'>
+          <div className='h-14 max-sm:scale-75 max-sm:mt-4 mt-10 min-[640px]:scale-100'>
             <Image
               alt=''
               src={image5}
@@ -104,7 +104,16 @@ export default function Navbar() {
               className='container'
             />
           </div>
-          <div className='min-[640px]:h-14 w-22 h-4'>
+          {/* <div className='min-[640px]:h-14 min-[640px]:w-22 scale-50 h-6 min-[640px]:hidden'>
+            <Image
+              alt=''
+              src={image5}
+              width={96}
+              height={40}
+              className='container'
+            />
+          </div> */}
+          <div className='h-14 max-sm:scale-75 max-sm:mt-4 mt-10 min-[640px]:scale-100'>
             <Image
               alt=''
               src={image6}
@@ -113,6 +122,15 @@ export default function Navbar() {
               className='container'
             />
           </div>
+          {/* <div className='min-[640px]:h-14 min-[640px]:w-22 scale-50 h-6 min-[640px]:hidden'>
+            <Image
+              alt=''
+              src={image6}
+              width={82}
+              height={32}
+              className='container'
+            />
+          </div> */}
         </div>
       </div>
     </div>
