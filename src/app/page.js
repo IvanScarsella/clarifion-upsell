@@ -29,14 +29,14 @@ export default function Home() {
     <div className='flex flex-col gap-6 bg-white text-black'>
       <Navbar />
       <div className='flex flex-col gap-6'>
-        <div className='flex flex-col gap-6 w-80 mx-auto text-center h-[104px]'>
-          <h1 className='text-3xl'>Wait ! Your Order In Progress.</h1>
-          <h2 className='text-base text-[#4D5254] capitalize'>
+        <div className='flex flex-col gap-6 w-80 mx-auto mb-8 text-center h-[104px]'>
+          <h1 className='text-32'>Wait ! Your Order In Progress.</h1>
+          <h2 className='text-16 text-[#4D5254] capitalize'>
             Lorem ipsum dolor sit amet, consectetur
           </h2>
         </div>
 
-        <div className='h-[37px] flex flex-row justify-around'>
+        <div className='h-[37px] w-80 self-center flex flex-row justify-around'>
           {steps.map((item) => (
             <div className='flex flex-col items-center gap-1 '>
               <div className='h-5 w-5'>

@@ -27,8 +27,8 @@ export default function Promo() {
   ];
 
   return (
-    <div className='w-80 mx-auto flex flex-col gap-6 mb-8'>
-      <h1 className='text-2xl capitalize text-center'>
+    <div className='w-80 mx-auto flex flex-col gap-4 mb-4'>
+      <h1 className='text-24 capitalize text-center'>
         <span className='text-[#2C7EF8]'>ONE TIME ONLY</span> special price for
         6 extra Clarifion for only{' '}
         <span className='text-[#2C7EF8]'>$14 each </span>($84.00 total!)
@@ -203,7 +203,7 @@ export default function Promo() {
             ))}
           </div>
         </div>
-        <h2 className='uppercase text-[#F82C2C] text-14 underline self-center underline-offset-2'>
+        <h2 className='uppercase text-[#F82C2C] text-14 font-bold underline decoration-[#F82C2C]/30 self-center underline-offset-1'>
           No thanks, I don’t want this.
         </h2>
       </div>
