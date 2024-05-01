@@ -7,6 +7,10 @@ import image5 from '../../../public/McAfee_logo.png';
 import image6 from '../../../public/Norton_logo.png';
 import truck from '../../../public/truck.png';
 import heart from '../../../public/heart.png';
+import nav1 from '../../../public/nav1.png';
+import nav2 from '../../../public/nav2.png';
+import nav3 from '../../../public/nav3.png';
+import nav4 from '../../../public/nav4.png';
 import guarantee from '../../../public/guarantee.png';
 
 export default function Navbar() {
@@ -85,7 +89,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className='flex justify-between max-sm:w-80 min-[640px]:w-[1460px] min-[640px]:px-[116px] h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
-        <div className='min-[640px]:scale-150 max-w-[192px] h-5 w-[107px] min-[640px]:ml-8 max-sm:-ml-1'>
+        {/* <div className='min-[640px]:scale-150 max-w-[192px] h-5 w-[107px] min-[640px]:ml-8 max-sm:-ml-1'>
           <Image
             alt=''
             src={image4}
@@ -95,7 +99,7 @@ export default function Navbar() {
           />
         </div>
         <div className='flex flex-row justify-between max-sm:gap-0  min-[640px]:gap-8 max-w-[202px]'>
-          <div className='h-14 max-sm:scale-75 max-sm:mt-4 mt-10 min-[640px]:scale-100'>
+          <div className='h-14 max-sm:scale-50 max-sm:ml-10 max-sm:mt-4 mt-10 min-[640px]:scale-100'>
             <Image
               alt=''
               src={image5}
@@ -104,16 +108,7 @@ export default function Navbar() {
               className='container'
             />
           </div>
-          {/* <div className='min-[640px]:h-14 min-[640px]:w-22 scale-50 h-6 min-[640px]:hidden'>
-            <Image
-              alt=''
-              src={image5}
-              width={96}
-              height={40}
-              className='container'
-            />
-          </div> */}
-          <div className='h-14 max-sm:scale-75 max-sm:mt-4 mt-10 min-[640px]:scale-100'>
+          <div className='h-14 max-sm:scale-50  max-sm:mt-4 mt-10 min-[640px]:scale-100'>
             <Image
               alt=''
               src={image6}
@@ -122,16 +117,43 @@ export default function Navbar() {
               className='container'
             />
           </div>
-          {/* <div className='min-[640px]:h-14 min-[640px]:w-22 scale-50 h-6 min-[640px]:hidden'>
-            <Image
-              alt=''
-              src={image6}
-              width={82}
-              height={32}
-              className='container'
-            />
-          </div> */}
+        </div> */}
+        <div className='w-80 min-[640px]:hidden'>
+          <Image
+            alt=''
+            src={nav1}
+            className='container'
+          />
         </div>
+        <div className='flex flex-row justify-between items-center w-[1400px] mt-2 h-24 max-sm:hidden'>
+          <div className='h-9 w-48'>
+            <Image
+              alt=''
+              src={nav3}
+              width={1400}
+              height={96}
+              className='container'
+            />
+          </div>
+          <div className='h-8 w-[202px]'>
+            <Image
+              alt=''
+              src={nav4}
+              width={1400}
+              height={96}
+              className='container'
+            />
+          </div>
+        </div>
+        {/* <div className='max-w-[1400px] mt-2 h-24 max-sm:hidden'>
+          <Image
+            alt=''
+            src={nav2}
+            width={1400}
+            height={96}
+            className='container'
+          />
+        </div> */}
       </div>
     </div>
   );
