@@ -37,7 +37,9 @@ export default function Navbar() {
                 className='container'
               />
             </div>
-            <p className='text-12 text-white'>30-DAY SATISFACTION GUARANTEE</p>
+            <p className='text-12 text-white text-center'>
+              30-DAY SATISFACTION GUARANTEE
+            </p>
           </div>
           <div className='flex flex-row justify-around w-[257px] items-center gap-3 max-sm:hidden'>
             <div className=''>
@@ -49,7 +51,7 @@ export default function Navbar() {
                 className='container'
               />
             </div>
-            <p className='text-12 text-white'>
+            <p className='text-12 text-white text-center'>
               FREE DELIVERY ON ORDERS OVER $40.00
             </p>
           </div>
@@ -63,7 +65,9 @@ export default function Navbar() {
                 className='container'
               />
             </div>
-            <p className='text-12 text-white'>50.000+ HAPPY CUSTOMERS</p>
+            <p className='text-12 text-white text-center'>
+              50.000+ HAPPY CUSTOMERS
+            </p>
           </div>
           <div className='flex flex-row justify-around w-[210px] items-center gap-3 max-sm:hidden'>
             <div className=''>
@@ -75,7 +79,9 @@ export default function Navbar() {
                 className='container'
               />
             </div>
-            <p className='text-12 text-white'>100% MONEY BACK GUARANTEE</p>
+            <p className='text-12 text-white text-center'>
+              100% MONEY BACK GUARANTEE
+            </p>
           </div>
           <div className='min-[640px]:hidden'>
             <Image
