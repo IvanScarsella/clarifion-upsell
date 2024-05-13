@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <div className=''>
       <div className='bg-[#252F3D]'>
-        <div className='min-sm:w-[348px] min-[640px]:px-[76px] min-[640px]:w-[1483px] px-5 flex py-[10px] justify-between min-[640px]:justify-around mx-auto h-[42px] min-[640px]:h-[50px] items-center'>
+        <div className='min-sm:w-[348px] min-[640px]:px-[76px] min-[640px]:w-full px-5 flex py-[10px] justify-between min-[640px]:justify-around mx-auto h-[42px] min-[640px]:h-[50px] items-center'>
           <div className='min-[640px]:hidden'>
             <Image
               alt=''
@@ -88,7 +88,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className='flex justify-between max-sm:w-80 min-[640px]:w-[1460px] min-[640px]:px-[116px] h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
+      <div className='flex justify-between max-sm:w-80 min-[640px]:w-full min-[640px]:px-[116px] h-[60px] min-[640px]:h-[90px] mx-auto items-center bg-white'>
         {/* <div className='min-[640px]:scale-150 max-w-[192px] h-5 w-[107px] min-[640px]:ml-8 max-sm:-ml-1'>
           <Image
             alt=''

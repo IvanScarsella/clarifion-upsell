@@ -50,14 +50,14 @@ export default function Home() {
     <div className='flex flex-col gap-6 bg-white text-black'>
       <Navbar />
       <div className='flex flex-col gap-6'>
-        <div className='flex flex-col gap-6 w-80 min-[640px]:w-[1480px] mx-auto mb-8 text-center h-[104px] min-[640px]:gap-0 min-[640px]:-mt-12'>
-          <h1 className='text-32 min-[640px]:text-48'>
+        <div className='flex flex-col gap-6 w-80 min-[640px]:w-full mx-auto mb-8 text-center h-[104px] min-[640px]:gap-0 min-[640px]:-mt-12 max-lg:mb-20'>
+          <h1 className='text-32 min-[640px]:text-48 max-lg:scale-[0.8]'>
             Wait ! Your Order In Progress.
           </h1>
-          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize min-[640px]:hidden'>
+          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize min-[640px]:hidden '>
             Lorem ipsum dolor sit amet, consectetur
           </h2>
-          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize max-sm:hidden'>
+          <h2 className='text-16 min-[640px]:text-24 text-[#4D5254] capitalize max-sm:hidden max-lg:scale-[0.8]'>
             Lorem ipsum dolor sit amet, consectetur adipiscing
           </h2>
         </div>
@@ -85,11 +85,11 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className='h-[37px] w-[1215px] self-center flex flex-row justify-between max-sm:hidden'>
+        <div className='h-[37px] w-full self-center flex flex-row justify-around max-sm:hidden'>
           {steps.map((item, index) => (
             <div
               key={index}
-              className='flex flex-row items-center gap-5 max-w-[261px]'>
+              className='flex flex-row items-center gap-5 max-w-[261px] max-lg:scale-[0.8]'>
               <div className='h-10 w-10'>
                 <Image
                   alt={index}

@@ -31,7 +31,7 @@ export default function Promo() {
 
   return (
     <>
-      <div className='w-80 mx-auto flex flex-col gap-4 mb-4 min-[640px]:hidden'>
+      <div className='w-80 mx-auto flex flex-col gap-4 mb-4 min-[768px]:hidden'>
         <h1 className='text-24 capitalize text-center'>
           <span className='text-[#2C7EF8]'>ONE TIME ONLY</span> special price
           for 6 extra Clarifion for only{' '}
@@ -276,8 +276,8 @@ export default function Promo() {
       {/* FULL SCREEN */}
       {/* FULL SCREEN */}
 
-      <div className='w-[1245px] p-12 mx-auto flex flex-row gap-10 mb-4 max-sm:hidden'>
-        <div className='w-1/2 h-[591px] flex flex-col gap-3'>
+      <div className='w-[1245px] p-12 max-lg:p-4 mx-auto flex flex-row gap-10 mb-4 max-md:hidden max-w-full items-center'>
+        <div className='max-lg:w-2/5  flex flex-col gap-3 max-lg:scale-[0.8] max-md:scale-[0.5] max-w-[1/2]'>
           <div>
             <Image
               alt=''
@@ -358,7 +358,7 @@ export default function Promo() {
 
         {/*  */}
 
-        <div className='w-[550px] flex flex-col gap-4'>
+        <div className='max-lg:w-2/5 flex flex-col gap-4 max-lg:scale-[0.7] max-md:scale-[0.5] max-w-[1/2]'>
           <h1 className='text-32 capitalize w-[550px] leading-[40px]'>
             <span className='text-[#2C7EF8]'>ONE TIME ONLY</span> special price
             for 6 extra Clarifion for only{' '}
